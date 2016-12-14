@@ -1,0 +1,28 @@
+#game_area {
+	margin: auto;
+	max-width: 600px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+input{
+	margin-top: 10px;
+}
+
+table {
+	margin: auto;
+}
+
+th, td {
+  border: 1px solid black;
+	height: 20px;
+	width: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+img{
+	width: 100%;
+	height: auto;
+	display:block;
+}
