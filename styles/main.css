@@ -1,28 +1,51 @@
-#game_area {
-	margin: auto;
-	max-width: 600px;
-	vertical-align: middle;
-	text-align: center;
+/*
+Minesweeper, CSS
+	Author:		Michael Mroczka, Max Petretta
+	Date:		December 17, 2016
+	Class:		CIS 435-001
+	Purpose:	Main CSS stylesheet for HTML game page
+	Notes:		None
+*/
+
+body {
+	background: darkslategray;
+	font-family: arial, helvetica, sans-serif;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
 }
 
-input{
-	margin-top: 10px;
+h2 {
+	font-size: 200%;
+	margin: 0px 0px 0px 0px;
+	text-decoration: underline;
 }
 
 table {
 	margin: auto;
 }
 
-th, td {
-  border: 1px solid black;
-	height: 20px;
-	width: 20px;
-	text-align: center;
-	vertical-align: middle;
+td {
+	border: 1px solid black;
 }
 
-img{
+img {
+	display: block;
+	width: 20px;
+}
+
+input {
+	margin-top: 15px;
+	padding: 10px 0px 10px 0px;
 	width: 100%;
-	height: auto;
-	display:block;
+}
+
+#game_area {
+	background: white;
+	border: 6px solid black;
+	border-radius: 30px 30px 30px 30px;
+	color: black;
+	padding: 20px 20px 20px 20px;
+	text-align: center;
 }
